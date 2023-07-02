@@ -14,7 +14,7 @@ const app = express();
 // dir name.
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
-app.use(express.static("src"))
-;
+app.use(express.static("src"));
+
 // the server is listen.
-app.listen(3000, () => console.log("the server is listening to 3000..."))
+app.listen(3000, () => console.log("the server is listening to 3000..."));
